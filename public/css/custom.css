@@ -1,0 +1,131 @@
+html, body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#close-menu {
+    cursor: pointer;
+}
+
+.dropdown-content {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.custom-navbar {
+    display: flex;
+    display: -webkit-flex;
+    height: 50px;
+}
+
+.custom-navbar .content-left {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    padding-left: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.custom-navbar .content-right {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding-right: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.custom-input-field {
+    display: flex;
+    padding-left: 30px;
+    border-radius: 50px;
+    border: 1px solid #ddd;
+}
+
+.custom-input-field:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.custom-input-field input {
+    font-family: 'Montserrat', sans-serif;
+    height: 56px;
+    width: calc(100% - 56px);
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.custom-afiliate {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    max-width: 300px;
+    font-size: 12px;
+}
+
+.row.custom-row {
+    margin: 0;
+}
+
+.col.custom-col {
+    padding: 0;
+}
+
+.content-afiliate {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+}
+
+.content-afiliate .content {
+    height: 80px;
+}
+
+.content-afiliate .content-info {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 20px;
+    font-size: 10px;
+}
+
+.section.custom-section {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.separe {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #ddd;
+}
+
+.custom-menu {
+    display: none;
+    position: fixed;
+    top: 50px;
+    left: 20px;
+    background-color: #fff;
+    max-width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 20px 20px 10px 20px;
+    z-index: 1000;
+}
+
+.custom-menu ul li {
+    padding-bottom: 10px;
+}
+
+.custom-menu ul li a:hover {
+    text-decoration: underline;
+}
+
+.tiny-h1 {
+    font-weight: 700;
+    margin-top: 0;
+    font-size: 20px;
+}
