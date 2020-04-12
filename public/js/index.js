@@ -1,4 +1,4 @@
-const END_POINT = 'http://localhost:1010';
+const END_POINT = 'https://itubefoxserver.herokuapp.com';
 
 $('#menu-download').dropdown({
     constrainWidth: false,
